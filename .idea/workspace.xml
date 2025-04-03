@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8144bf4c-7b94-4bcb-9bc5-005ba04cc3a7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlaytechTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlaytechTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +50,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.PlaytechTest.executor": "Run",
+    "JUnit.PlaytechTest.extractCasinoProductDescription.executor": "Run",
     "JUnit.PlaytechTest.extractLocationsWithHoverAndCorrectXPath.executor": "Run",
+    "JUnit.PlaytechTest.testCasinoSectionVisible.executor": "Run",
+    "JUnit.PlaytechTest.verifyCasinoProductDescription.executor": "Run",
+    "JUnit.PlaytechTest.verifyCasinoProductSuite.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -62,7 +65,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PlaytechTest">
+  <component name="RunManager" selected="JUnit.PlaytechTest.verifyCasinoProductSuite">
     <configuration name="PlaytechTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playtech-selenium-task" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,41 +75,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaytechTest.extractLocationsFromDropdown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaytechTest.extractCasinoProductDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playtech-selenium-task" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
-      <option name="METHOD_NAME" value="extractLocationsFromDropdown" />
+      <option name="METHOD_NAME" value="extractCasinoProductDescription" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaytechTest.extractLocationsUsingJavaScript" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaytechTest.testCasinoSectionVisible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playtech-selenium-task" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
-      <option name="METHOD_NAME" value="extractLocationsUsingJavaScript" />
+      <option name="METHOD_NAME" value="testCasinoSectionVisible" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaytechTest.extractLocationsWithClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaytechTest.verifyCasinoProductDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playtech-selenium-task" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
-      <option name="METHOD_NAME" value="extractLocationsWithClick" />
+      <option name="METHOD_NAME" value="verifyCasinoProductDescription" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaytechTest.extractLocationsWithHoverAndCorrectXPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaytechTest.verifyCasinoProductSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playtech-selenium-task" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
-      <option name="METHOD_NAME" value="extractLocationsWithHoverAndCorrectXPath" />
+      <option name="METHOD_NAME" value="verifyCasinoProductSuite" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlaytechTest.verifyCasinoProductSuite" />
+        <item itemvalue="JUnit.PlaytechTest.verifyCasinoProductDescription" />
+        <item itemvalue="JUnit.PlaytechTest.testCasinoSectionVisible" />
+        <item itemvalue="JUnit.PlaytechTest.extractCasinoProductDescription" />
         <item itemvalue="JUnit.PlaytechTest" />
-        <item itemvalue="JUnit.PlaytechTest.extractLocationsWithHoverAndCorrectXPath" />
-        <item itemvalue="JUnit.PlaytechTest.extractLocationsUsingJavaScript" />
-        <item itemvalue="JUnit.PlaytechTest.extractLocationsWithClick" />
-        <item itemvalue="JUnit.PlaytechTest.extractLocationsFromDropdown" />
       </list>
     </recent_temporary>
   </component>

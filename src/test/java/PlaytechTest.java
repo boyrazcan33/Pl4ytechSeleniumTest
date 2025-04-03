@@ -5,9 +5,11 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -92,7 +94,45 @@ public class PlaytechTest {
         }
     }
 
+    @Test
+    public void verifyCasinoProductSuite() {
+        try {
+            // Click on the "Life at Playtech" tab.
+            WebElement lifeAtPlaytechTab = wait.until(
+                    ExpectedConditions.elementToBeClickable(By.linkText("Life at Playtech"))
+            );
+            lifeAtPlaytechTab.click();
+            Thread.sleep(2000); // Allow time for the Life at Playtech section to load.
 
+            // Click on the "Who we are" link within the Life at Playtech section.
+            WebElement whoWeAreLink = wait.until(
+                    ExpectedConditions.elementToBeClickable(By.linkText("Who we are"))
+            );
+            whoWeAreLink.click();
+            Thread.sleep(2000); // Give some time for the Who we are section to show.
+
+            // Scroll down gradually using PAGE_DOWN keystrokes (simulate three scroll actions).
+            Actions actions = new Actions(driver);
+            for (int i = 0; i < 3; i++) {
+                actions.sendKeys(Keys.PAGE_DOWN).perform();
+                Thread.sleep(1000); // Wait to allow lazy-loaded content to render.
+            }
+
+            // Now locate the Casino product suite description.
+            // This uses the relative XPath: find a product-card where <h4> equals "Casino" and then get the adjacent <p>.
+            WebElement casinoDescription = wait.until(
+                    ExpectedConditions.visibilityOfElementLocated(
+                            By.xpath("//div[contains(@class, 'product-card')]//h4[text()='Casino']/following-sibling::p")
+                    )
+            );
+
+            System.out.println("Casino Product Suite Description:");
+            System.out.println(casinoDescription.getText());
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("Exception occurred in verifyCasinoProductSuite. Please verify the locator and page load conditions.");
+        }
+    }
 
     @AfterEach
     public void tearDown() {
