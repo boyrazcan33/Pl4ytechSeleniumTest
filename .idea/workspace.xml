@@ -4,18 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8144bf4c-7b94-4bcb-9bc5-005ba04cc3a7" name="Changes" comment="" />
+    <list default="true" id="8144bf4c-7b94-4bcb-9bc5-005ba04cc3a7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlaytechTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlaytechTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "boyrazcan33"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/boyrazcan33/PlaytechSeleniumTest.git",
+    "accountId": "85583873-88b0-4893-8791-1544072da347"
+  }
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2v21OESsL4xJIqNHqYzAjKzQI41" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,11 +50,78 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.PlaytechTest.executor": "Run",
+    "JUnit.PlaytechTest.extractLocationsWithHoverAndCorrectXPath.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.PlaytechTest">
+    <configuration name="PlaytechTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playtech-selenium-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaytechTest.extractLocationsFromDropdown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playtech-selenium-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
+      <option name="METHOD_NAME" value="extractLocationsFromDropdown" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaytechTest.extractLocationsUsingJavaScript" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playtech-selenium-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
+      <option name="METHOD_NAME" value="extractLocationsUsingJavaScript" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaytechTest.extractLocationsWithClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playtech-selenium-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
+      <option name="METHOD_NAME" value="extractLocationsWithClick" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaytechTest.extractLocationsWithHoverAndCorrectXPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playtech-selenium-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
+      <option name="METHOD_NAME" value="extractLocationsWithHoverAndCorrectXPath" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PlaytechTest" />
+        <item itemvalue="JUnit.PlaytechTest.extractLocationsWithHoverAndCorrectXPath" />
+        <item itemvalue="JUnit.PlaytechTest.extractLocationsUsingJavaScript" />
+        <item itemvalue="JUnit.PlaytechTest.extractLocationsWithClick" />
+        <item itemvalue="JUnit.PlaytechTest.extractLocationsFromDropdown" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
