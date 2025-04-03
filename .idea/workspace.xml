@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8144bf4c-7b94-4bcb-9bc5-005ba04cc3a7" name="Changes" comment="">
+    <list default="true" id="8144bf4c-7b94-4bcb-9bc5-005ba04cc3a7" name="Changes" comment="3 completed">
+      <change afterPath="$PROJECT_DIR$/src/test/java/PlaytechTestNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlaytechTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlaytechTest.java" afterDir="false" />
     </list>
@@ -35,8 +36,16 @@
     "accountId": "85583873-88b0-4893-8791-1544072da347"
   }
 }]]></component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="PlaytechTest.findEstonianJobs" />
+    </enabled-run-configurations>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -49,12 +58,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.PlayTech.playTechJobs.executor": "Run",
     "JUnit.PlaytechTest.executor": "Run",
     "JUnit.PlaytechTest.extractCasinoProductDescription.executor": "Run",
     "JUnit.PlaytechTest.extractLocationsWithHoverAndCorrectXPath.executor": "Run",
+    "JUnit.PlaytechTest.findEstonianJobPositions.executor": "Run",
+    "JUnit.PlaytechTest.findEstonianJobs.executor": "Run",
     "JUnit.PlaytechTest.testCasinoSectionVisible.executor": "Run",
     "JUnit.PlaytechTest.verifyCasinoProductDescription.executor": "Run",
     "JUnit.PlaytechTest.verifyCasinoProductSuite.executor": "Run",
+    "JUnit.PlaytechTest.verifyEstoniaJobsFromTartuAndTallinn.executor": "Run",
+    "JUnit.PlaytechTest.verifyJobsInEstonia.executor": "Run",
+    "JUnit.PlaytechTestNew.executor": "Run",
+    "JUnit.another.playTechJobs.executor": "Run",
+    "JUnit.another.testEstoniaJobs.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -65,7 +82,17 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.PlaytechTest.verifyCasinoProductSuite">
+  <component name="RunManager" selected="JUnit.PlaytechTestNew">
+    <configuration name="PlayTech.playTechJobs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playtech-selenium-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlayTech" />
+      <option name="METHOD_NAME" value="playTechJobs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlaytechTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playtech-selenium-task" />
       <option name="PACKAGE_NAME" value="" />
@@ -75,41 +102,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaytechTest.extractCasinoProductDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlaytechTestNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playtech-selenium-task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PlaytechTestNew" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlaytechTest.findEstonianJobs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playtech-selenium-task" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
-      <option name="METHOD_NAME" value="extractCasinoProductDescription" />
+      <option name="METHOD_NAME" value="findEstonianJobs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaytechTest.testCasinoSectionVisible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="another.playTechJobs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="playtech-selenium-task" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
-      <option name="METHOD_NAME" value="testCasinoSectionVisible" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaytechTest.verifyCasinoProductDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="playtech-selenium-task" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
-      <option name="METHOD_NAME" value="verifyCasinoProductDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlaytechTest.verifyCasinoProductSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="playtech-selenium-task" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PlaytechTest" />
-      <option name="METHOD_NAME" value="verifyCasinoProductSuite" />
+      <option name="MAIN_CLASS_NAME" value="another" />
+      <option name="METHOD_NAME" value="playTechJobs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PlaytechTest.verifyCasinoProductSuite" />
-        <item itemvalue="JUnit.PlaytechTest.verifyCasinoProductDescription" />
-        <item itemvalue="JUnit.PlaytechTest.testCasinoSectionVisible" />
-        <item itemvalue="JUnit.PlaytechTest.extractCasinoProductDescription" />
+        <item itemvalue="JUnit.PlaytechTestNew" />
         <item itemvalue="JUnit.PlaytechTest" />
+        <item itemvalue="JUnit.PlaytechTest.findEstonianJobs" />
+        <item itemvalue="JUnit.another.playTechJobs" />
+        <item itemvalue="JUnit.PlayTech.playTechJobs" />
       </list>
     </recent_temporary>
   </component>
@@ -134,6 +150,19 @@
       <option name="presentableId" value="Default" />
       <updated>1743328320968</updated>
     </task>
+    <task id="LOCAL-00001" summary="3 completed">
+      <option name="closed" value="true" />
+      <created>1743679199309</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743679199309</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 completed" />
   </component>
 </project>

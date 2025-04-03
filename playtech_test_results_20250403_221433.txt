@@ -1,0 +1,49 @@
+Playtech Test Results
+Date: 2025-04-03 22:14:33
+Screen Resolution: 1552x832
+========================================
+Clicking at coordinates: (472, 532)
+Clicking at coordinates: (544, 38)
+
+=== Locations Tab Test ===
+Executed at: 2025-04-03 22:14:33
+Screen resolution: 1552x832
+----------------------------------------
+Clicking on 'Locations' tab
+Raw locations text:
+Australia
+Austria
+Bulgaria
+Cyprus
+Estonia
+Germany
+Gibraltar
+Israel
+Latvia
+Malta
+Peru
+Romania
+Sweden
+Ukraine
+United Kingdom
+United States
+View all locations
+Total number of locations: 16
+Australia
+Austria
+Bulgaria
+Cyprus
+Estonia
+Germany
+Gibraltar
+Israel
+Latvia
+Malta
+Peru
+Romania
+Sweden
+Ukraine
+United Kingdom
+United States
+----------------------------------------
+All tests completed.

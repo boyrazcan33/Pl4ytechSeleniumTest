@@ -1,0 +1,35 @@
+Playtech Test Results
+Date: 2025-04-03 22:13:22
+Screen Resolution: 1552x832
+========================================
+Clicking at coordinates: (472, 532)
+Clicking at coordinates: (1343, 38)
+Clicking at coordinates: (686, 346)
+Clicking at coordinates: (556, 604)
+Clicking at coordinates: (1360, 346)
+Clicking at coordinates: (759, 581)
+Clicking at coordinates: (759, 776)
+
+=== Estonian Jobs Test ===
+Executed at: 2025-04-03 22:13:22
+Screen resolution: 1552x832
+----------------------------------------
+Clicking 'All Jobs' tab
+Clicking 'Select location' dropdown
+Selecting 'Estonia' from dropdown
+Clicking Search button
+Found 4 job listings in Estonia
+Processing job: Cross Product Technical Project Manager with URL: https://jobs.smartrecruiters.com/Playtech/744000041502458-cross-product-technical-project-manager
+Found address: Vanemuise 7, Tartu, Estonia
+Found Tartu job: Cross Product Technical Project Manager
+Tartu job link: https://jobs.smartrecruiters.com/Playtech/744000041502458-cross-product-technical-project-manager
+Processing job: Java Developer with URL: https://jobs.smartrecruiters.com/Playtech/744000046359112-java-developer
+Found address: Lõõtsa 5, Tallinn, Estonia
+Found Tallinn job: Java Developer
+Tallinn job link: https://jobs.smartrecruiters.com/Playtech/744000046359112-java-developer
+
+Final Job Links:
+Tartu Job Link: https://jobs.smartrecruiters.com/Playtech/744000041502458-cross-product-technical-project-manager
+Tallinn Job Link: https://jobs.smartrecruiters.com/Playtech/744000046359112-java-developer
+----------------------------------------
+All tests completed.

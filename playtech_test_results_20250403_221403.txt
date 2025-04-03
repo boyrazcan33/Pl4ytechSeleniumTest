@@ -1,0 +1,18 @@
+Playtech Test Results
+Date: 2025-04-03 22:14:03
+Screen Resolution: 1552x832
+========================================
+Clicking at coordinates: (472, 532)
+Clicking at coordinates: (663, 38)
+Clicking at coordinates: (663, 122)
+
+=== Casino Product Suite Test ===
+Executed at: 2025-04-03 22:14:03
+Screen resolution: 1552x832
+----------------------------------------
+Clicking on 'Life at Playtech' tab
+Clicking on 'Who we are' link
+Casino Product Suite Description:
+The world’s largest and most diverse online casino content developers with 8 content studios.
+----------------------------------------
+All tests completed.
