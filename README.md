@@ -1,5 +1,6 @@
 ﻿# PlaytechSeleniumTest
-Playtech Website Automation
+ 
+Playtech Website Automation:
 This project uses Selenium WebDriver with Java to automate testing tasks on the Playtech People website.
 What it does
 The automation performs the following tasks:
