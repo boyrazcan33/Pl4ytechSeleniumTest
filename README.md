@@ -1,46 +1,31 @@
-#Playtech Selenium Testing
-
+# Playtech Selenium Testing
 
 Simple Selenium WebDriver project for testing different sections of the Playtech People website.
-What It Does
+
+##  What It Does
+
 This project runs automated tests on the Playtech People website to:
 
-Check locations listed under the Locations tab
-Find the Casino product description in the "Who we are" section
-Get job links for positions in Tartu and Tallinn
+-  Check locations listed under the **Locations** tab  
+-  Find the **Casino** product description in the **Who We Are** section  
+- 📍 Get job links for positions in **Tartu** and **Tallinn**
 
+##  Features
 
+- Clicks using **screen coordinates** instead of standard element clicks  
+- Saves test results to a **text file** with a timestamp  
+- Uses **JUnit 5** for running tests  
 
-Features
+##  Requirements
 
-Clicks using screen coordinates instead of normal element clicks
-Saves test results to a text file with timestamp
-Uses JUnit 5 for running tests
+- Java 11+ (Java 8 might work, but not recommended)  
+- Selenium WebDriver  
+- JUnit 5  
+- WebDriverManager  
 
+## ▶️ Running the Tests
 
-
-
-Requirements
-
-Java 11 or higher recommended (Java 8 might work but isn't ideal)
-Selenium WebDriver
-JUnit 5
-WebDriverManager
-
-
-
-Running the Tests
-
-Clone this repo
-Make sure you have the required libraries
-Run PlaytechTestNew class as a JUnit test
-
-When the tests finish running, check your project folder for a text file with the results.
-
-
-
-
-Notes
-
-The tests handle the cookie popup automatically
-Each test runs in a separate browser session
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/your-username/playtech-selenium-testing.git
+   cd playtech-selenium-testing
