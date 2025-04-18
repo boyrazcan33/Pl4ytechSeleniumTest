@@ -5,7 +5,7 @@ Simple Selenium WebDriver project for testing different sections of the Playtech
 ## 🎥 Demo
 
 Check out a short video demo of the project in action:  
-[![Watch the Demo](https://via.placeholder.com/800x450.png?text=Click+to+watch+demo)](https://vimeo.com/1076791453)
+[![Watch the Demo](QA.png)](https://vimeo.com/1076791453)
 
 > Or click this link directly: [https://vimeo.com/1076791453](https://vimeo.com/1076791453)
 
